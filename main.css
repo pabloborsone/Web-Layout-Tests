@@ -1,0 +1,26 @@
+body {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#top-content {
+    width: fit-content;
+    height: auto;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#title {
+    font-size: 22px;
+    font-weight: bold;
+}
+#bottom-content {
+    justify-content: space-between;
+}
